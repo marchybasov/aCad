@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,800");
+*, * :before, * :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all .2s ease-in; }
+
+body {
+  margin: 0 auto;
+  max-width: 100vw; }
+
+header {
+  width: 100%;
+  height: 500px;
+  background: #dcdcdc url("img/Layer.png") no-repeat;
+  padding: 0 6%;
+  background-size: cover; }
+  header p, header a {
+    font-family: Montserrat, sans-serif;
+    color: #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase; }
+  header .nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+  header h1 {
+    font-family: Montserrat, sans-serif;
+    color: #60606e;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 175px 0 0 0; }
+  header div {
+    text-align: center; }
+    header div a, header div span {
+      font-family: Montserrat, sans-serif;
+      color: #60606e;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 48px;
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none; }
+      header div a:hover, header div span:hover {
+        color: #000000; }
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #60606e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+  height: 48px;
+  width: 100%; }
+  h2 .bg {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background: #7beec7;
+    z-index: -1;
+    bottom: 4px;
+    left: -4px; }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #60606e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0; }
+
+main {
+  width: 100%;
+  padding: 10% 6% 2% 6%; }
+  main .row {
+    width: 100%;
+    height: auto; }
+    main .row .column-1 {
+      float: left;
+      width: 50%;
+      padding-right: 10px; }
+    main .row .column-2 {
+      float: right;
+      width: 50%;
+      padding-right: 10px; }
+  main p {
+    font-family: 'Open Sans', sans-serif;
+    color: #60606e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left; }
+  main .column-center {
+    padding-top: 10%;
+    clear: both;
+    display: block;
+    text-align: center; }
+    main .column-center h2 {
+      display: inline-block;
+      width: auto;
+      margin: 0 auto; }
+    main .column-center p {
+      text-align: center; }
+  main .grid__row {
+    margin: 5% auto; }
+    main .grid__row .column {
+      width: 33.33%;
+      padding-right: 1.5%;
+      float: left; }
+      main .grid__row .column:last-child {
+        padding-right: 0; }
+      main .grid__row .column .icon {
+        display: inline-block;
+        font-size: 1.66em;
+        height: 40px;
+        width: 40px;
+        background-color: #7beec7;
+        text-align: center;
+        line-height: 40px;
+        color: white; }
+      main .grid__row .column h4 {
+        display: inline-block;
+        font-family: Montserrat, sans-serif;
+        color: #60606e;
+        font-size: 1.122em;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        padding-left: 2%;
+        margin: 0;
+        text-transform: uppercase; }
+      main .grid__row .column .text {
+        font-family: OpenSans, sans-serif;
+        color: #60606e;
+        font-size: 0.875em;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left; }
+  main .our_team {
+    margin-top: 8%; }
+    main .our_team .img__row .img {
+      float: left;
+      width: 23%;
+      height: auto;
+      margin-right: 2.66%; }
+      main .our_team .img__row .img:last-child {
+        margin-right: 0; }
+      main .our_team .img__row .img img {
+        width: 100%;
+        height: auto; }
+    main .our_team .img__row {
+      padding-top: 1.5%; }
+  main .clear {
+    clear: both; }
+
+.footer {
+  width: 100%;
+  height: 330px;
+  background: #7beec7;
+  padding: 2% 6% 10% 6%; }
+  .footer__left-block {
+    width: 50%;
+    float: left;
+    padding-right: 0; }
+    .footer__left-block h3 {
+      font-family: Montserrat, sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: left; }
+    .footer__left-block button {
+      background-color: #ffffff;
+      width: 165px;
+      height: 49px;
+      font-family: Montserrat, sans-serif;
+      color: #7beec7;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      border: none;
+      margin-top: 2%; }
+  .footer__right-block {
+    width: 50%;
+    float: left;
+    background: white;
+    padding: 20px 25px;
+    border: 1px solid black; }
+    .footer__right-block h3 {
+      font-family: Montserrat, sans-serif;
+      color: #60606e;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      text-align: left; }
+    .footer__right-block p {
+      font-family: OpenSans, sans-serif;
+      color: #999999;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left; }
+    .footer__right-block label {
+      font-size: 0; }
+      .footer__right-block label input {
+        font-family: Montserrat, sans-serif;
+        color: #cdcdcd;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+        border-right: none;
+        border-color: rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        height: 50px;
+        text-transform: uppercase;
+        width: 70%;
+        padding-right: 60px; }
+      .footer__right-block label button {
+        background-color: #7beec7;
+        width: 30%;
+        height: 50px;
+        font-family: Montserrat, sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        border: 1px transparent; }
+
+/*# sourceMappingURL=main.css.map */
